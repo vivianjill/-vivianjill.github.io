@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Inconsolata", monospace;
+  font-family: "Raleway", sans-serif;
   color: #0d1e2d;
 }
 
@@ -24,6 +24,14 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6, .font-heading {
   font-family: "Raleway", sans-serif;
+}
+
+.site-section img{
+
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+
 }
 
 .section {
@@ -492,4 +500,101 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 .social a:hover {
   color: #000;
+}
+
+/*--------------------------------------------------------------
+# Customization CSS
+--------------------------------------------------------------*/
+.bg_dblue{background-color: #20263B;}
+.bg_liner{
+  background-image: url("../img/projects/bg_liner.svg");
+  background-repeat:repeat-x;
+}
+.bg_liner_opposite{
+  background-image: url("../img/projects/bg_liner_oppisite.svg");
+  background-repeat:repeat-x;
+  background-position: bottom;
+}
+
+
+#blocking_section{
+  width: 100%;
+  display: block;
+  clear: both;
+  padding:40px 0px;
+  font-family: "Raleway", sans-serif;
+}
+.bg_dblue h2 {
+
+  color: #FFF;
+  text-align: center;
+  font-size: 36px;
+}
+.project_detail h2{
+
+  padding: 20px 10px;
+}
+
+.project_detail{
+
+  padding: 20px 0;
+  border-top: solid 1px #DDD;
+  font-family: "Raleway", sans-serif;
+}
+
+#blocking_section .title{
+  font-size: 36px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#blocking_section .content{
+
+  font-size: 25px;
+  text-align: center;
+
+}
+
+#blocking_section img,
+.project_detail img {
+  padding: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.PwM_cover_img{
+  border: solid 1px;
+  background-image: url("../img/projects/PwM_cover_inside.svg");
+  background-repeat:none;
+}
+
+#footer_customize{
+  background: linear-gradient(180deg, #EEE, #FFF);
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0px;
+}
+
+#footer_customize .socialmedia a {
+  padding: 20px;
+  font-weight: bold;
+  color: #666;
+}
+#footer_customize .socialmedia a:hover{
+  color: #333;
+}
+#main section {
+  padding: 0;
+  font-weight: 400;
+  padding: 30px 0;
+}
+#self_intro {
+    margin-top: 10px;
+    margin-bottom: 80px;
+    color: #1a1b1f;
+
 }
