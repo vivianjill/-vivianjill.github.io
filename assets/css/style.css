@@ -11,6 +11,7 @@
 body {
   font-family: "Raleway", sans-serif;
   color: #0d1e2d;
+  padding: 50px;
 }
 
 a {
@@ -394,7 +395,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 @media (max-width: 780px) {
   .custom-navbar > .container {
     padding-right: 0;
-    padding-left: 30px;
+    padding-left: 0px;
   }
 }
 
