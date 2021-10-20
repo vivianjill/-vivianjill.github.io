@@ -37,7 +37,7 @@
 
   <!-- ======= Navbar ======= -->
 
-  <nav class="navbar navbar-light custom-navbar">
+  <nav class="navbar navbar-light custom-navbar" style="display: none;">
     <div class="container">
       <a class="navbar-brand" href="index.html">Vivian's Portfolio.</a>
         <span></span>
@@ -55,15 +55,33 @@
   </nav>
 
   <main id="main">
-
+    <div id="self_intro" data-aos="fade-up">
+      <div class="hello_message">
+            <h2>Hello, I'm Vivian.</h2>
+            <span>A UX designer enjoy creating user-centric &amp; delightful design</span>
+            <img class="photo-fluid" src="assets/img/vivian.png"/>
+      </div>
+    </div>
     <!-- ======= Works Section ======= -->
     <section class="section site-portfolio">
-      <div class="container">
-        <div id="self_intro" data-aos="fade-up">
-            <h2 style="font-size:60px;">Hello, I'm Vivian.</h2>
-            <h2>A UX designer enjoy creating user-centric &amp; delightful design</h2>
-        </div>
 
+        <div class="container">
+           
+           <nav class="custom-navbar">
+            <div class="col-md-12 col-lg-6 text-start text-lg-end" data-aos="fade-up" data-aos-delay="100">
+              <div id="filters" class="filters_">
+                  <a href="#" data-filter="*" class="active">All</a>
+                  <a href="#" data-filter=".UX">UX</a>
+                  <a href="#" data-filter=".Mobile">Mobile</a>
+                  <a href="#" data-filter=".Web">Web</a>
+                  
+              </div>
+            </div>
+            </nav>
+
+          </div>
+
+      <div class="container">
         <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
        
           <div class="item UX col-sm-6 col-md-4 col-lg-4 mb-4">

@@ -364,6 +364,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   text-decoration: none;
 }
 
+
 .custom-navmenu .custom-menu li.active a {
   text-decoration: underline;
 }
@@ -387,8 +388,8 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 /* Custom Navbar */
 .custom-navbar {
-  padding-top: 50px;
-  width: 100%;
+  padding: 20px 0;
+  position: relative;
 }
 
 @media (max-width: 780px) {
@@ -590,11 +591,61 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 #main section {
   padding: 0;
   font-weight: 400;
-  padding: 30px 0;
+  position: relative;
 }
 #self_intro {
-    margin-top: 10px;
-    margin-bottom: 80px;
-    color: #1a1b1f;
+    color: #FFF;
+    background-image: url("../img/cover/cover_bg.svg");
+    max-height: 883px;
+    position: relative;
+    padding: 20% 90px;
+    background-size: cover;
+}
 
+#self_intro .hello_message{
+
+  border: solid 0px;
+  width: 60%;
+
+}
+
+.hello_message H2 {
+  font-size: 6vw;
+}
+.hello_message span {
+  font-size: 3vw;
+}
+
+.hello_message .photo-fluid
+{
+ position: absolute;
+ width: 30%;
+ top: 25%;
+ right: 5%;
+ border-radius: 50%;
+  
+}
+
+#filters {
+  position: relative;
+  left: 0px;
+  margin: 20px;
+  text-align: left;
+}
+#filters a {
+  border: solid 1px #EEE;
+  display: inline-block;
+  line-height: 38px;
+  text-align: center;
+  border-radius: 4px;
+  width: 100px;
+  margin-right: 10px;
+
+}
+#filters a:hover,#filters a.active{
+  border: solid 1px #000;
+}
+#filters a.active {
+  background-color: #333;
+  color: #FFF;
 }
