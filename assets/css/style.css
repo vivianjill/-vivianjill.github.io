@@ -629,7 +629,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 #filters {
   position: relative;
   left: 0px;
-  margin: 20px;
+  margin:20px 0;
   text-align: left;
 }
 #filters a {
@@ -638,8 +638,8 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   line-height: 38px;
   text-align: center;
   border-radius: 4px;
-  width: 100px;
-  margin-right: 10px;
+  width: 90px;
+  margin-right: 8px;
 
 }
 #filters a:hover,#filters a.active{
