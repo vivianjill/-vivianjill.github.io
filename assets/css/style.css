@@ -122,6 +122,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 .item .item-wrap > .work-info h3 {
   font-size: 20px;
   margin-bottom: 0;
+  text-transform: uppercase;
 }
 
 .item .item-wrap > .work-info span {
@@ -224,6 +225,10 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   position: -webkit-sticky;
   top: 0;
   /* required */
+}
+.sticky-content .project_title {
+  font-size: 52px;
+  font-weight: bold;
 }
 
 .list-line li {
@@ -396,6 +401,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   .custom-navbar > .container {
     padding-right: 0;
     padding-left: 0px;
+    clear: both;
   }
 }
 
@@ -514,7 +520,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 .bg_liner_opposite{
   background-image: url("../img/projects/bg_liner_oppisite.svg");
   background-repeat:repeat-x;
-  background-position: bottom;
+  background-position: top;
 }
 
 
@@ -522,7 +528,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   width: 100%;
   display: block;
   clear: both;
-  padding:40px 0px;
+  padding:0px;
   font-family: "Raleway", sans-serif;
 }
 .bg_dblue h2 {
@@ -534,19 +540,43 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 .project_detail h2{
 
   padding: 20px 10px;
+  text-transform: uppercase;
+}
+
+.project_detail h3{
+
+  font-size: 20px;
+  color: #222;
+  text-transform: uppercase;
 }
 
 .project_detail{
-
   padding: 20px 0;
   border-top: solid 1px #DDD;
   font-family: "Raleway", sans-serif;
 }
 
+.project_detail .content_l,
+.project_detail .content_r  {
+  width : 50%;
+  padding: 0 20px;
+  border: solid 0px #000;
+  font-size: 14px;
+  color: #666;
+
+}
+
+.project_detail .content_l ul,
+.project_detail .content_r ul {
+  padding: 0px 10px;
+}
+
+
 #blocking_section .title{
   font-size: 36px;
   padding: 20px 0;
   text-align: center;
+  text-transform: uppercase;
 }
 
 #blocking_section .content{
@@ -596,9 +626,9 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 #self_intro {
     color: #FFF;
     background-image: url("../img/cover/cover_bg.svg");
-    max-height: 883px;
+    max-height: 800px;
     position: relative;
-    padding: 20% 90px;
+    padding: 10% 90px;
     background-size: cover;
 }
 
@@ -613,13 +643,18 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   font-size: 6vw;
 }
 .hello_message span {
-  font-size: 3vw;
+  font-size: 1.5vw;
 }
 
+.hello_message .job_info{
+  font-size: 1vw;
+  margin-top: 50px;
+  display: block;
+}
 .hello_message .photo-fluid
 {
  position: absolute;
- width: 30%;
+ width: 25%;
  top: 25%;
  right: 5%;
  border-radius: 50%;
